@@ -277,6 +277,143 @@
                 "issues": [
                     "Fullscreen toggling"
                 ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Just Shapes & Beats",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched audio"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Lovers in a Dangerous Spacetime",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Alt+Tab Crash",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Glitched video",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Minecraft Java",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Black screen",
+                "windowed": "Black screen",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Mortal Kombat 11",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Error -1515",
+                "windowed": "Error -1515",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Move or Die",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Glitched video",
+                "windowed": "Glitched video",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Moving Out",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Bad gamma"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "N++",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Overcooked",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Epic Games Store",
+        "name": "Overcooked",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
             },
             {
                 "gpu_vendor": "NVIDIA",
@@ -284,6 +421,506 @@
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "PCSX2 Emulator",
+        "tweak": "Your experience will vary with the renderer used in the video plugin settings. Direct3D 11 seems to give best results.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched audio"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Pikuniku",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Project64 Emulator",
+        "tweak": "You must use Glide64 as the video plugin in the emulator's settings.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Project64 Emulator",
+        "tweak": "You must use Glide64 as the video plugin in the emulator's settings.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Fullscreen toggling"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Redream Emulator",
+        "tweak": "You must use Glide64 as the video plugin in the emulator's settings.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "No overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Rivals of Aether",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Bad lobby name or image",
+                    "Error -400"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "River City Girls",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched audio"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Rocket League",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched audio"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Epic Games Store",
+        "name": "Rocket League",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched audio"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Epic Games Store",
+        "name": "Rocket League",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Error -15106",
+                "windowed": "Error -15106",
+                "issues": [
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "RPCS3 Emulator",
+        "tweak": "You must use the OpenGL renderer in the emulator's GPU settings.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Ryujinx Emulator",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Glitched video",
+                "windowed": "Glitched video",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Shovel Knight",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "No overlay",
+                    "Fullscreen toggling"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Snes9x Emulator",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "No overlay",
+                    "Fullscreen toggling"
+                ]
+            },
+            {
+                "gpu_vendor": "AMD",
+                "gpu_info": "RX 580 (20.11.2)",
+                "fullscreen": "Black screen",
+                "windowed": "Black screen",
+                "issues": [
+                    "No audio",
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Sonic Mania",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Alt+Tab Crash",
+                "windowed": "Works",
+                "issues": [
+                    "No audio",
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Spelunky",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Crashes",
+                "windowed": "Works",
+                "issues": [
+                    "Bad lobby name or image"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Stick Fight: The Game",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Street Fighter V",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Streets of Rage 4",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Can't Alt+Tab",
+                "windowed": "Black screen",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "TEKKEN 7",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched audio"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "The Binding of Isaac: Rebirth",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Crashes",
+                "windowed": "Crashes",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "The Escapists 2",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Epic Games Store",
+        "name": "The Escapists 2",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Error -15106",
+                "windowed": "Error -15106",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Towerfall Ascension",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Alt+Tab Crash",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Tricky Towers",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Fullscreen toggling"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Unrailed!",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Videoball",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Glitched video",
+                "windowed": "Glitched video",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Wizard of Legend",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Crashes",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Crashes",
+                "windowed": "Crashes",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Xenia Emulator",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Error -1507",
+                "windowed": "Error -1507",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Yuzu Emulator",
+        "tweak": "You must use the OpenGL API in the emulator's graphics settings.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "No audio",
+                    "No overlay",
+                    "Error -22000"
+                ]
             }
         ]
     }
