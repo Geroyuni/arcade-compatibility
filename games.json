@@ -484,24 +484,8 @@
     },
     {
         "location": "Generic",
-        "name": "Project64 Emulator",
-        "tweak": "You must use Glide64 as the video plugin in the emulator's settings.",
-        "tests": [
-            {
-                "gpu_vendor": "NVIDIA",
-                "gpu_info": "GTX 1070 (461.09)",
-                "fullscreen": "Works",
-                "windowed": "Works",
-                "issues": [
-                    "Fullscreen toggling"
-                ]
-            }
-        ]
-    },
-    {
-        "location": "Generic",
         "name": "Redream Emulator",
-        "tweak": "You must use Glide64 as the video plugin in the emulator's settings.",
+        "tweak": "",
         "tests": [
             {
                 "gpu_vendor": "NVIDIA",
