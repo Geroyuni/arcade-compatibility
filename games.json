@@ -1,12 +1,33 @@
 [
     {
         "location": "Steam",
+        "name": "A Hat in Time",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.72)",
+                "fullscreen": "Crashes",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Crashes",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
         "name": "Cuphead",
         "tweak": "",
         "tests": [
             {
                 "gpu_vendor": "NVIDIA",
-                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "gpu_info": "GTX 1070 (461.72)",
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": []
@@ -21,13 +42,44 @@
         ]
     },
     {
-        "location": "Generic",
-        "name": "Cemu Emulator",
-        "tweak": "Use OpenGL as the renderer in Cemu's settings to be able to host.",
+        "location": "Steam",
+        "name": "Crawl",
+        "tweak": "",
         "tests": [
             {
                 "gpu_vendor": "NVIDIA",
-                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "gpu_info": "GTX 1070 (461.72)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched overlay",
+                    "Fullscreen toggling"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Crypt of the Necrodancer",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.72)",
+                "fullscreen": "Alt+Tab Crash",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Cemu Emulator",
+        "tweak": "You must use OpenGL as the graphics API in Cemu's settings to be able to host.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09 / 461.72)",
                 "fullscreen": "Glitched video",
                 "windowed": "Glitched video",
                 "issues": [
@@ -54,7 +106,7 @@
         "tests": [
             {
                 "gpu_vendor": "NVIDIA",
-                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "gpu_info": "GTX 1070 (461.09 / 461.72)",
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": []
@@ -64,11 +116,171 @@
     {
         "location": "Generic",
         "name": "Dolphin Emulator",
-        "tweak": "Use Direct3D 11 as the renderer in Dolphin's settings for the best results.",
+        "tweak": "You must use Direct3D 11 as the backend in Dolphin's graphic settings for the best results.",
         "tests": [
             {
                 "gpu_vendor": "NVIDIA",
-                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "gpu_info": "GTX 1070 (461.09 / 461.72)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Dragon Ball FighterZ",
+        "tweak": "This game has an anti-cheat that prevents the game from showing as a hosting option. You must disable the anti-cheat to host (https://files.catbox.moe/pqoxul.png)",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.72)",
+                "fullscreen": "Alt+Tab Crash",
+                "windowed": "Works",
+                "issues": [
+                    "No audio"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Duck Game",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched overlay",
+                    "Fullscreen toggling"
+                ]
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Dungeon Souls",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Enter the Gungeon",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Epic Games Store",
+        "name": "Enter the Gungeon",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "Hyper Light Drifter",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Fullscreen toggling"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Epic Games Store",
+        "name": "Hyper Light Drifter",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Fullscreen toggling"
+                ]
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "JUMP FORCE",
+        "tweak": "You must disable the anti-cheat for it to show up as a hosting option. ",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": [
+                    "Fullscreen toggling"
+                ]
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": []
