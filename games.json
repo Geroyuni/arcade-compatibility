@@ -1,0 +1,78 @@
+[
+    {
+        "location": "Steam",
+        "name": "Cuphead",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09 / 461.72)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Cemu Emulator",
+        "tweak": "Use OpenGL as the renderer in Cemu's settings to be able to host.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "fullscreen": "Glitched video",
+                "windowed": "Glitched video",
+                "issues": [
+                    "Glitched audio",
+                    "Glitched overlay"
+                ]
+            },
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "GTX 1070 (461.09 / 461.72)",
+                "fullscreen": "Glitched video",
+                "windowed": "Glitched video",
+                "issues": [
+                    "Glitched audio",
+                    "Glitched overlay"
+                ]
+            }
+        ]
+    },
+    {
+        "location": "Steam",
+        "name": "DERU",
+        "tweak": "",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    },
+    {
+        "location": "Generic",
+        "name": "Dolphin Emulator",
+        "tweak": "Use Direct3D 11 as the renderer in Dolphin's settings for the best results.",
+        "tests": [
+            {
+                "gpu_vendor": "NVIDIA",
+                "gpu_info": "NVIDIA GTX 1070 (461.09 / 461.72)",
+                "fullscreen": "Works",
+                "windowed": "Works",
+                "issues": []
+            }
+        ]
+    }
+]
