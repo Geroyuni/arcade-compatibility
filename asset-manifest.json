@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/arcade-compatibility/static/css/main.ddd0f6ca.chunk.css",
-    "main.js": "/arcade-compatibility/static/js/main.a921aec0.chunk.js",
-    "main.js.map": "/arcade-compatibility/static/js/main.a921aec0.chunk.js.map",
+    "main.js": "/arcade-compatibility/static/js/main.6a3f113a.chunk.js",
+    "main.js.map": "/arcade-compatibility/static/js/main.6a3f113a.chunk.js.map",
     "runtime-main.js": "/arcade-compatibility/static/js/runtime-main.1c341ed7.js",
     "runtime-main.js.map": "/arcade-compatibility/static/js/runtime-main.1c341ed7.js.map",
     "static/js/2.73b2b8ef.chunk.js": "/arcade-compatibility/static/js/2.73b2b8ef.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1c341ed7.js",
     "static/js/2.73b2b8ef.chunk.js",
     "static/css/main.ddd0f6ca.chunk.css",
-    "static/js/main.a921aec0.chunk.js"
+    "static/js/main.6a3f113a.chunk.js"
   ]
 }
