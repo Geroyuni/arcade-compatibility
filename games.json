@@ -5,6 +5,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.72)",
                 "fullscreen": "Crashes",
@@ -12,6 +13,7 @@
                 "issues": []
             },
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Crashes",
@@ -26,15 +28,9 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.72)",
-                "fullscreen": "Works",
-                "windowed": "Works",
-                "issues": []
-            },
-            {
-                "gpu_vendor": "NVIDIA",
-                "gpu_info": "GTX 1070 (461.09 / 461.72)",
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": []
@@ -47,6 +43,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.72)",
                 "fullscreen": "Works",
@@ -64,6 +61,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.72)",
                 "fullscreen": "Alt+Tab Crash",
@@ -78,16 +76,7 @@
         "tweak": "You must use OpenGL as the graphics API in Cemu's settings to be able to host.",
         "tests": [
             {
-                "gpu_vendor": "NVIDIA",
-                "gpu_info": "GTX 1070 (461.09 / 461.72)",
-                "fullscreen": "Glitched video",
-                "windowed": "Glitched video",
-                "issues": [
-                    "Glitched audio",
-                    "Glitched overlay"
-                ]
-            },
-            {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09 / 461.72)",
                 "fullscreen": "Glitched video",
@@ -105,6 +94,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09 / 461.72)",
                 "fullscreen": "Works",
@@ -116,9 +106,10 @@
     {
         "location": "Generic",
         "name": "Dolphin Emulator",
-        "tweak": "You must use Direct3D 11 as the backend in Dolphin's graphic settings for the best results.",
+        "tweak": "You must use Direct3D 11 as the backend in Dolphin's graphic settings for the best results. While OpenGL does work, it has a black overlay.",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09 / 461.72)",
                 "fullscreen": "Works",
@@ -133,6 +124,7 @@
         "tweak": "This game has an anti-cheat that prevents the game from showing as a hosting option. You must disable the anti-cheat to host (https://files.catbox.moe/pqoxul.png)",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.72)",
                 "fullscreen": "Alt+Tab Crash",
@@ -149,6 +141,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Unable to type in the chat overlay.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -159,6 +152,7 @@
                 ]
             },
             {
+                "description": "Unable to type in the chat overlay.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -175,11 +169,15 @@
         "tweak": "",
         "tests": [
             {
+                "description": "No lobby image, name interestingly has a bunch of spaces at the end.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
                 "windowed": "Works",
-                "issues": []
+                "issues": [
+                    "Bad lobby name or image",
+                    "Fullscreen toggling"
+                ]
             }
         ]
     },
@@ -189,6 +187,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -203,6 +202,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -210,6 +210,7 @@
                 "issues": []
             },
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -217,6 +218,7 @@
                 "issues": []
             },
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -231,6 +233,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -247,6 +250,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -256,6 +260,7 @@
                 ]
             },
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -267,9 +272,10 @@
     {
         "location": "Steam",
         "name": "JUMP FORCE",
-        "tweak": "You must disable the anti-cheat for it to show up as a hosting option. ",
+        "tweak": "You must disable the anti-cheat for it to show up as a hosting option. It requires the use of a mod that disables EAC.",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -286,12 +292,14 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Sometimes hosting will make the audio beep forever, sometimes not. Game shows as JSB with no image.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": [
-                    "Glitched audio"
+                    "Glitched audio",
+                    "Bad lobby name or image"
                 ]
             }
         ]
@@ -302,6 +310,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Alt+Tab Crash",
@@ -309,6 +318,7 @@
                 "issues": []
             },
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Glitched video",
@@ -323,6 +333,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "The black screen happens for both the host and guest. Tested 1.16.5 and 1.12.2 with same behavior.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Black screen",
@@ -337,6 +348,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Error -1515",
@@ -351,6 +363,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Heavy visual glitches that make it unplayable.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Glitched video",
@@ -365,6 +378,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Overlay is brighter than usual, guest's view is darker than usual. Seems like a gamma thing. Doesn't really disrupt the gameplay.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -381,6 +395,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -395,6 +410,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -409,6 +425,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -434,9 +451,10 @@
     {
         "location": "Generic",
         "name": "PCSX2 Emulator",
-        "tweak": "Your experience will vary with the renderer used in the video plugin settings. Direct3D 11 seems to give best results.",
+        "tweak": "Your experience will vary with the renderer used in the video plugin settings. Select either Direct3D 11 or OpenGL",
         "tests": [
             {
+                "description": "OpenGL gives a black screen for the host and guest. Direct3D 11 works.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -444,6 +462,7 @@
                 "issues": []
             },
             {
+                "description": "Black screen with Direct3D 11, OpenGL works.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -460,6 +479,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -474,6 +494,7 @@
         "tweak": "You must use Glide64 as the video plugin in the emulator's settings.",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -488,6 +509,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -504,6 +526,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Shows with no image / name. Publicly the empty name is replaced by the PC name of the host. Parsec fails to retrieve game information when the icon is clicked in Arcade and gives out an error code. Hosting can still be started just fine.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -521,6 +544,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Audio is extremely stuttery and loud.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -537,6 +561,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Audio is either permanently stuck repeating something or there's no audio.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -553,28 +578,13 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Attempting to join the game will give error -15106, regardless of the host's resolution or lack of HDR. Overlay keeps blinking, although this can be fixed by disabling the Epic Games overlay (renaming some exes in Epic Games\\Launcher\\Portal\\Extras\\Overlay). The host's game goes down in framerate after hosting starts. This is also fixed by disabling the Epic Games overlay.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": [
                     "Glitched audio"
-                ]
-            }
-        ]
-    },
-    {
-        "location": "Epic Games Store",
-        "name": "Rocket League",
-        "tweak": "",
-        "tests": [
-            {
-                "gpu_vendor": "NVIDIA",
-                "gpu_info": "GTX 1070 (461.09)",
-                "fullscreen": "Error -15106",
-                "windowed": "Error -15106",
-                "issues": [
-                    "Glitched overlay"
                 ]
             }
         ]
@@ -582,9 +592,10 @@
     {
         "location": "Generic",
         "name": "RPCS3 Emulator",
-        "tweak": "You must use the OpenGL renderer in the emulator's GPU settings.",
+        "tweak": "You must use the OpenGL renderer in the emulator's GPU settings. Some settings in the same place like 'Multithreaded RSX' may need to be disabled and 'Strict Rendering' may need to be enabled so Arcade works.",
         "tests": [
             {
+                "description": "Overlay text and icons are all unreadable. It's at least functional in windowed mode, meaning you can select bandwidth or send a message to people. In fullscreen, it can't be interacted with.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -601,6 +612,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Glitched video",
@@ -615,6 +627,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -632,16 +645,18 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Audio is broken by default but can be fixed by selecting WaveOut as the driver in the emulator's sound settings",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
                 "windowed": "Works",
                 "issues": [
-                    "No overlay",
+                    "No audio",
                     "Fullscreen toggling"
                 ]
             },
             {
+                "description": "The overlay works fine on Direct3D but is glitched with OpenGL. Notably, using WaveOut in the sound settings does not fix this, unlike the test of the GTX 1070 machine.",
                 "gpu_vendor": "AMD",
                 "gpu_info": "RX 580 (20.11.2)",
                 "fullscreen": "Black screen",
@@ -659,6 +674,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Overlay can't be clicked, you need to access it with LB+Back with a controller and move with the controller. Closing the chat with ESC also fails, but you can type in chat and send things just fine",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Alt+Tab Crash",
@@ -676,6 +692,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "The game shows as Spelunky 2 in the lobby.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Crashes",
@@ -692,6 +709,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -699,6 +717,7 @@
                 "issues": []
             },
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -713,6 +732,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Moving the mouse towards the overlay button crashes the game. Moving through the UI with the controller (L1+Select) does not cause issues.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -729,6 +749,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Can't Alt+Tab",
@@ -743,6 +764,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -759,6 +781,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Crashes",
@@ -773,6 +796,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -787,6 +811,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Error -15106",
@@ -801,6 +826,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Unable to type in the overlay chat.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Alt+Tab Crash",
@@ -817,6 +843,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -833,6 +860,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
@@ -847,6 +875,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Glitched video",
@@ -861,6 +890,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Crashes",
@@ -868,6 +898,7 @@
                 "issues": []
             },
             {
+                "description": "Crashes with various non-Parsec related errors. Very rarely works on windowed.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Crashes",
@@ -882,6 +913,7 @@
         "tweak": "",
         "tests": [
             {
+                "description": "Error -1507 happens because of the emulator being on Direct3D 12, which Arcade doesn't support. The alternative is Vulkan which isn't supported either.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Error -1507",
@@ -896,6 +928,7 @@
         "tweak": "You must use the OpenGL API in the emulator's graphics settings.",
         "tests": [
             {
+                "description": "Audio is frozen with the \"Audio stretching\" option turned off, turning on the setting fixes it. Yuzu tends to get -22000 depending on what game is being hosted and when hosting is started, or what things are done while hosting, like resizing or entering fullscreen.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
