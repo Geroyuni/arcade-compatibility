@@ -451,7 +451,7 @@
     {
         "location": "Generic",
         "name": "PCSX2 Emulator",
-        "tweak": "Your experience will vary with the renderer used in the video plugin settings. Select either Direct3D 11 or OpenGL",
+        "tweak": "Your experience will vary with the renderer used in the video plugin settings. Select either Direct3D 11 or OpenGL.",
         "tests": [
             {
                 "description": "OpenGL gives a black screen for the host and guest. Direct3D 11 works.",
