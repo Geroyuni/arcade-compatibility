@@ -581,8 +581,8 @@
                 "description": "Attempting to join the game will give error -15106, regardless of the host's resolution or lack of HDR. Overlay keeps blinking, although this can be fixed by disabling the Epic Games overlay (renaming some exes in Epic Games\\Launcher\\Portal\\Extras\\Overlay). The host's game goes down in framerate after hosting starts. This is also fixed by disabling the Epic Games overlay.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
-                "fullscreen": "Works",
-                "windowed": "Works",
+                "fullscreen": "Error -15106",
+                "windowed": "Error -15106",
                 "issues": [
                     "Glitched audio"
                 ]
