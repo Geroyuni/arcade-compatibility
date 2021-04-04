@@ -76,7 +76,7 @@
         "tweak": "You must use OpenGL as the graphics API in Cemu's settings to be able to host.",
         "tests": [
             {
-                "description": "",
+                "description": "The game will have visual glitches at times. Depending on the game, it'll be completely unplayable (e.g. Super Mario 3D World), others have minor glitches and are mostly playable (e.g. Mario Kart 8, Super Smash Bros 4, Donkey Kong Tropical Freeze). Audio will be stuttery if you have both the TV and Gamepad set to output audio. Keep only the TV with audio and restart Cemu to fix it. Overlay is upside down. You can click it from its intended place but once you open the overlay, everything is blank and unusable. Using Vulkan or not starting a game and trying to host will eventually time out with error -1406.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09 / 461.72)",
                 "fullscreen": "Glitched video",
