@@ -595,7 +595,7 @@
         "tweak": "You must use the OpenGL renderer in the emulator's GPU settings. Some settings in the same place like 'Multithreaded RSX' may need to be disabled and 'Strict Rendering' may need to be enabled so Arcade works.",
         "tests": [
             {
-                "description": "Overlay text and icons are all unreadable. It's at least functional in windowed mode, meaning you can select bandwidth or send a message to people. In fullscreen, it can't be interacted with.",
+                "description": "If you start hosting after the game is running, the overlay text and icons are all unreadable. This is fixed by hosting before actually starting a game. The overlay can't be interacted with using the mouse in fullscreen at all, a controller is needed for that.",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.09)",
                 "fullscreen": "Works",
