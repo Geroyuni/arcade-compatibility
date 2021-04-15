@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/arcade-compatibility/static/css/main.ba65780d.chunk.css",
+    "main.css": "/arcade-compatibility/static/css/main.60bbefcc.chunk.css",
     "main.js": "/arcade-compatibility/static/js/main.68f56b8a.chunk.js",
     "main.js.map": "/arcade-compatibility/static/js/main.68f56b8a.chunk.js.map",
     "runtime-main.js": "/arcade-compatibility/static/js/runtime-main.1c341ed7.js",
@@ -10,13 +10,13 @@
     "static/js/3.27a27e60.chunk.js": "/arcade-compatibility/static/js/3.27a27e60.chunk.js",
     "static/js/3.27a27e60.chunk.js.map": "/arcade-compatibility/static/js/3.27a27e60.chunk.js.map",
     "index.html": "/arcade-compatibility/index.html",
-    "static/css/main.ba65780d.chunk.css.map": "/arcade-compatibility/static/css/main.ba65780d.chunk.css.map",
+    "static/css/main.60bbefcc.chunk.css.map": "/arcade-compatibility/static/css/main.60bbefcc.chunk.css.map",
     "static/js/2.73b2b8ef.chunk.js.LICENSE.txt": "/arcade-compatibility/static/js/2.73b2b8ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1c341ed7.js",
     "static/js/2.73b2b8ef.chunk.js",
-    "static/css/main.ba65780d.chunk.css",
+    "static/css/main.60bbefcc.chunk.css",
     "static/js/main.68f56b8a.chunk.js"
   ]
 }
