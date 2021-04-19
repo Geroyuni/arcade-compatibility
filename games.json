@@ -2,7 +2,10 @@
     {
         "location": "Steam",
         "name": "A Hat in Time",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Windowed crash"
+        ],
         "tests": [
             {
                 "description": "",
@@ -25,7 +28,8 @@
     {
         "location": "Steam",
         "name": "Cuphead",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -40,10 +44,11 @@
     {
         "location": "Steam",
         "name": "Crawl",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
-                "description": "",
+                "description": "Overlay can't be opened with the cursor, the button doesn't react to the mouse. It can be opened with the controller using LB+Back",
                 "gpu_vendor": "NVIDIA",
                 "gpu_info": "GTX 1070 (461.72)",
                 "fullscreen": "Works",
@@ -58,7 +63,10 @@
     {
         "location": "Steam",
         "name": "Crypt of the Necrodancer",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Windowed black screen"
+        ],
         "tests": [
             {
                 "description": "",
@@ -73,7 +81,8 @@
     {
         "location": "Generic",
         "name": "Cemu Emulator",
-        "tweak": "You must use OpenGL as the graphics API in Cemu's settings to be able to host.",
+        "description": "You must use OpenGL as the graphics API in Cemu's settings to be able to host.",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "The game will have visual glitches at times. Depending on the game, it'll be completely unplayable (e.g. Super Mario 3D World), others have minor glitches and are mostly playable (e.g. Mario Kart 8, Super Smash Bros 4, Donkey Kong Tropical Freeze). Audio will be stuttery if you have both the TV and Gamepad set to output audio. Keep only the TV with audio and restart Cemu to fix it. Overlay is upside down. You can click it from its intended place but once you open the overlay, everything is blank and unusable. Using Vulkan or not starting a game and trying to host will eventually time out with error -1406.",
@@ -91,7 +100,8 @@
     {
         "location": "Steam",
         "name": "DERU",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -106,7 +116,8 @@
     {
         "location": "Generic",
         "name": "Dolphin Emulator",
-        "tweak": "You must use Direct3D 11 as the backend in Dolphin's graphic settings for the best results. While OpenGL does work, it has a black overlay.",
+        "description": "You must use Direct3D 11 as the backend in Dolphin's graphic settings for the best results. While OpenGL does work, it has a black overlay.",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -121,7 +132,8 @@
     {
         "location": "Steam",
         "name": "Dragon Ball FighterZ",
-        "tweak": "This game has an anti-cheat that prevents the game from showing as a hosting option. You must disable the anti-cheat to host (https://files.catbox.moe/pqoxul.png)",
+        "description": "This game has an anti-cheat that prevents the game from showing as a hosting option. You must disable the anti-cheat to host (https://files.catbox.moe/pqoxul.png)",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -138,7 +150,11 @@
     {
         "location": "Steam",
         "name": "Duck Game",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Fullscreen black screen",
+            "Windowed crash"
+        ],
         "tests": [
             {
                 "description": "Unable to type in the chat overlay.",
@@ -166,7 +182,8 @@
     {
         "location": "Steam",
         "name": "Dungeon Souls",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "No lobby image, name interestingly has a bunch of spaces at the end.",
@@ -184,7 +201,8 @@
     {
         "location": "Steam",
         "name": "Enter the Gungeon",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -199,7 +217,10 @@
     {
         "location": "Epic Games Store",
         "name": "Enter the Gungeon",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Error -1406"
+        ],
         "tests": [
             {
                 "description": "",
@@ -230,7 +251,8 @@
     {
         "location": "Steam",
         "name": "Hyper Light Drifter",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -247,7 +269,10 @@
     {
         "location": "Epic Games Store",
         "name": "Hyper Light Drifter",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Fullscreen black screen"
+        ],
         "tests": [
             {
                 "description": "",
@@ -272,7 +297,8 @@
     {
         "location": "Steam",
         "name": "JUMP FORCE",
-        "tweak": "You must disable the anti-cheat for it to show up as a hosting option. It requires the use of a mod that disables EAC.",
+        "description": "You must disable the anti-cheat for it to show up as a hosting option. It requires the use of a mod that disables EAC.",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -289,7 +315,8 @@
     {
         "location": "Steam",
         "name": "Just Shapes & Beats",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Sometimes hosting will make the audio beep forever, sometimes not. Game shows as JSB with no image.",
@@ -307,7 +334,8 @@
     {
         "location": "Steam",
         "name": "Lovers in a Dangerous Spacetime",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -330,7 +358,8 @@
     {
         "location": "Generic",
         "name": "Minecraft Java",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "The black screen happens for both the host and guest. Tested 1.16.5 and 1.12.2 with same behavior.",
@@ -345,7 +374,8 @@
     {
         "location": "Steam",
         "name": "Mortal Kombat 11",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -360,7 +390,8 @@
     {
         "location": "Steam",
         "name": "Move or Die",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Heavy visual glitches that make it unplayable.",
@@ -375,7 +406,8 @@
     {
         "location": "Steam",
         "name": "Moving Out",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Overlay is brighter than usual, guest's view is darker than usual. Seems like a gamma thing. Doesn't really disrupt the gameplay.",
@@ -392,7 +424,8 @@
     {
         "location": "Steam",
         "name": "N++",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -407,7 +440,11 @@
     {
         "location": "Steam",
         "name": "Overcooked",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Fullscreen black screen",
+            "Windowed error -1406"
+        ],
         "tests": [
             {
                 "description": "",
@@ -422,7 +459,11 @@
     {
         "location": "Epic Games Store",
         "name": "Overcooked",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Fullscreen black screen",
+            "Windowed error -1406"
+        ],
         "tests": [
             {
                 "description": "",
@@ -451,7 +492,8 @@
     {
         "location": "Generic",
         "name": "PCSX2 Emulator",
-        "tweak": "Your experience will vary with the renderer used in the video plugin settings. Select either Direct3D 11 or OpenGL.",
+        "description": "Your experience will vary with the renderer used in the video plugin settings. Select either Direct3D 11 or OpenGL.",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "OpenGL gives a black screen for the host and guest. Direct3D 11 works.",
@@ -476,7 +518,8 @@
     {
         "location": "Steam",
         "name": "Pikuniku",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -491,7 +534,8 @@
     {
         "location": "Generic",
         "name": "Project64 Emulator",
-        "tweak": "You must use Glide64 as the video plugin in the emulator's settings.",
+        "description": "You must use Glide64 as the video plugin in the emulator's settings.",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -506,7 +550,8 @@
     {
         "location": "Generic",
         "name": "Redream Emulator",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -523,7 +568,10 @@
     {
         "location": "Steam",
         "name": "Rivals of Aether",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Black screen"
+        ],
         "tests": [
             {
                 "description": "Shows with no image / name. Publicly the empty name is replaced by the PC name of the host. Parsec fails to retrieve game information when the icon is clicked in Arcade and gives out an error code. Hosting can still be started just fine.",
@@ -541,7 +589,8 @@
     {
         "location": "Steam",
         "name": "River City Girls",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Audio is extremely stuttery and loud.",
@@ -558,7 +607,8 @@
     {
         "location": "Steam",
         "name": "Rocket League",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Audio is either permanently stuck repeating something or there's no audio.",
@@ -575,7 +625,11 @@
     {
         "location": "Epic Games Store",
         "name": "Rocket League",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "No overlay",
+            "Crash when guest joins"
+        ],
         "tests": [
             {
                 "description": "Attempting to join the game will give error -15106, regardless of the host's resolution or lack of HDR. Overlay keeps blinking, although this can be fixed by disabling the Epic Games overlay (renaming some exes in Epic Games\\Launcher\\Portal\\Extras\\Overlay). The host's game goes down in framerate after hosting starts. This is also fixed by disabling the Epic Games overlay.",
@@ -592,7 +646,8 @@
     {
         "location": "Generic",
         "name": "RPCS3 Emulator",
-        "tweak": "You must use the OpenGL renderer in the emulator's GPU settings. Some settings in the same place like 'Multithreaded RSX' may need to be disabled and 'Strict Rendering' may need to be enabled so Arcade works.",
+        "description": "You must use the OpenGL renderer in the emulator's GPU settings. Some settings in the same place like 'Multithreaded RSX' may need to be disabled and 'Strict Rendering' may need to be enabled so Arcade works.",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "If you start hosting after the game is running, the overlay text and icons are all unreadable. This is fixed by hosting before actually starting a game. The overlay can't be interacted with using the mouse in fullscreen at all, a controller is needed for that.",
@@ -609,7 +664,8 @@
     {
         "location": "Generic",
         "name": "Ryujinx Emulator",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -624,7 +680,10 @@
     {
         "location": "Steam",
         "name": "Shovel Knight",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Black screen"
+        ],
         "tests": [
             {
                 "description": "",
@@ -642,7 +701,10 @@
     {
         "location": "Generic",
         "name": "Snes9x Emulator",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Black screen"
+        ],
         "tests": [
             {
                 "description": "Audio is broken by default but can be fixed by selecting WaveOut as the driver in the emulator's sound settings",
@@ -671,7 +733,10 @@
     {
         "location": "Steam",
         "name": "Sonic Mania",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "No overlay"
+        ],
         "tests": [
             {
                 "description": "Overlay can't be clicked, you need to access it with LB+Back with a controller and move with the controller. Closing the chat with ESC also fails, but you can type in chat and send things just fine",
@@ -689,7 +754,10 @@
     {
         "location": "Steam",
         "name": "Spelunky",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Fullscreen black screen"
+        ],
         "tests": [
             {
                 "description": "The game shows as Spelunky 2 in the lobby.",
@@ -706,7 +774,10 @@
     {
         "location": "Steam",
         "name": "Stick Fight: The Game",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Black screen"
+        ],
         "tests": [
             {
                 "description": "",
@@ -729,7 +800,8 @@
     {
         "location": "Steam",
         "name": "Street Fighter V",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Moving the mouse towards the overlay button crashes the game. Moving through the UI with the controller (L1+Select) does not cause issues.",
@@ -746,7 +818,8 @@
     {
         "location": "Steam",
         "name": "Streets of Rage 4",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -761,7 +834,8 @@
     {
         "location": "Steam",
         "name": "TEKKEN 7",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -778,7 +852,8 @@
     {
         "location": "Steam",
         "name": "The Binding of Isaac: Rebirth",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -793,7 +868,8 @@
     {
         "location": "Steam",
         "name": "The Escapists 2",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -808,7 +884,8 @@
     {
         "location": "Epic Games Store",
         "name": "The Escapists 2",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -823,7 +900,10 @@
     {
         "location": "Steam",
         "name": "Towerfall Ascension",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Black screen"
+        ],
         "tests": [
             {
                 "description": "Unable to type in the overlay chat.",
@@ -840,7 +920,8 @@
     {
         "location": "Steam",
         "name": "Tricky Towers",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -857,7 +938,8 @@
     {
         "location": "Steam",
         "name": "Unrailed!",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "",
@@ -872,7 +954,10 @@
     {
         "location": "Steam",
         "name": "Videoball",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Error -1406"
+        ],
         "tests": [
             {
                 "description": "",
@@ -887,7 +972,10 @@
     {
         "location": "Steam",
         "name": "Wizard of Legend",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [
+            "Error -1406"
+        ],
         "tests": [
             {
                 "description": "",
@@ -910,7 +998,8 @@
     {
         "location": "Generic",
         "name": "Xenia Emulator",
-        "tweak": "",
+        "description": "",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Error -1507 happens because of the emulator being on Direct3D 12, which Arcade doesn't support. The alternative is Vulkan which isn't supported either.",
@@ -925,7 +1014,8 @@
     {
         "location": "Generic",
         "name": "Yuzu Emulator",
-        "tweak": "You must use the OpenGL API in the emulator's graphics settings.",
+        "description": "You must use the OpenGL API in the emulator's graphics settings.",
+        "msiafterburner": [],
         "tests": [
             {
                 "description": "Audio is frozen with the \"Audio stretching\" option turned off, turning on the setting fixes it. Yuzu tends to get -22000 depending on what game is being hosted and when hosting is started, or what things are done while hosting, like resizing or entering fullscreen.",
